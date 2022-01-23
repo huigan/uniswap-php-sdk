@@ -1,0 +1,23 @@
+{
+    "name": "huigan/uniphp",
+    "description": "uniswap-php-sdk",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Huigan\\Uniphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tiaom",
+            "email": "huigan3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "PHP": "^7.1|^8.0",
+        "web3p/ethereum-tx": "dev-master",
+        "web3p/web3.php": "dev-master",
+        "jsonrpc/jsonrpc": "dev-master"
+    }
+}
